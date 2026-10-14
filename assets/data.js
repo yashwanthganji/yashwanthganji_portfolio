@@ -27,8 +27,8 @@
 const projectsData = [
   {
     id: "pulse-inspired-presence-scanner",
-    title: "Pulse-Inspired Presence Scanner",
-    tagline: "A Tinkercad prototype exploring mmWave human-presence detection and a simulated scanner display.",
+    title: "Pulse-Inspired Human Presence Scanner",
+    tagline: "A human-presence detector inspired by Pulse's scanner in Rainbow Six Siege.",
     description: "Built a digital circuit prototype and wiring diagram for an ESP32, LD2410C mmWave radar, and TFT display. Physical assembly is underway.",
     status: "Physical build in progress",
     image: "assets/images/CardiacSensor_3D.png",
@@ -110,7 +110,7 @@ const projectsData = [
     title: "AP Physics Lab Assistant",
     tagline: "Seven interactive AP Physics 1 labs, each paired with an AI lab assistant grounded in the student's own trial data.",
     description: "Interactive AP Physics 1 lab simulations paired with an AI lab assistant grounded in each student's own trial data.",
-    status: "Closed Beta",
+    status: "Demo Available",
     image: "assets/images/ai-physics-tutor-screenshot.png",
     skills: ["Next.js", "React", "Supabase", "Anthropic API", "Recharts"],
     links: { github: null, demo: null },
@@ -119,7 +119,7 @@ const projectsData = [
       {
         type: "text",
         title: "Overview",
-        body: "A Next.js web app with seven interactive AP Physics 1 lab simulations — kinematics, projectile motion, Newton's second law, energy conservation, momentum conservation, pendulum motion, and circular motion. Each lab pairs the simulation with a chat-based lab assistant that's grounded in that student's own trial data, so a student working through the College Board's required investigations gets Socratic guidance tied to what they actually measured, not generic physics explanations."
+        body: "A demo version is available now. This Next.js web app includes seven interactive AP Physics 1 lab simulations — kinematics, projectile motion, Newton's second law, energy conservation, momentum conservation, pendulum motion, and circular motion. Each lab pairs the simulation with a chat-based lab assistant grounded in the student's own trial data, so guidance connects to what they actually measured."
       },
       {
         type: "textColumns",
@@ -209,7 +209,7 @@ const projectsData = [
     title: "Bussing",
     tagline: "Real-time Chicago CTA bus tracking with reliability scoring.",
     description: "Live CTA bus tracker with per-stop arrival boards, a reliability score, and a leave-now nudge based on live conditions.",
-    status: "Closed Beta",
+    status: "In Testing",
     image: "assets/images/bussing-transitpulse.png",
     skills: ["Node.js", "Express", "Leaflet.js", "CTA Bus Tracker API", "OpenStreetMap Overpass API"],
     links: { github: null, demo: null },

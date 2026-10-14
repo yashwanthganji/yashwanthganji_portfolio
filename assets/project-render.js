@@ -286,7 +286,7 @@
         <div class="hero-eyebrow mono">PROJECT</div>
         <h1>${p.title}</h1>
         <p class="tagline" style="margin-top:16px;">${p.tagline}</p>
-        <div class="case-meta-row">${p.skills.map(chip).join("")}</div>
+        <div class="case-meta-row">${p.status ? `<span class="tag project-status-tag">${p.status}</span>` : ""}${p.skills.map(chip).join("")}</div>
         <div class="case-hero-media">
           ${p.image
             ? `<img src="${p.image}" alt="${p.title}">`
